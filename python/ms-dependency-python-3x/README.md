@@ -1,14 +1,9 @@
-# MS-EMPLOYEE
-Información de un empleado
+# MS-DEPENDENCY
+Ejemplo del uso de dependencias en Python 3.x
 # Nuevas caracteristicas
   - Ninguna
 # Construcción
 El servicio fue construido en Python 3.7.
-# Entorno virtual
-Este proyecto usa dependencias. En el caso se que se necesite usar env:
-```
-source ms_employee/bin/activate
-```
 # Dependencias
 Para instalar las dependencias:
 ```
@@ -21,31 +16,21 @@ python3 app.py
 ```
 Para ejecutar al API asincrona:
 ```
-nohup python -u ./app.py > ./output.log &
+nohup python3 -u ./app.py > ./output.log &
 ```
 # Métodos permitidos
 - GET
-- POST
-- PUT
-- DELETE
 - OPTIONS
 # RECURSOS
 | ID | DESCRIPCIÓN | RECURSO | MÉTODO |
 | ------ | ------ | ------ |------ |
-|1.|Obtener información del empleado|[/ms-employee/v1/get/<id>][PlDb]|GET|
-|2.|Crear un empleado|[/ms-employee/v1/create][PlDb]|POST|
-|3.|Actualiza la información de un empleado|[/ms-employee/v1/update/<id>][PlDb]|PUT|
-|4.|Elimina un empleado|[/ms-employee/v1/delete/<id>][PlDb]|DELETE|
-
-```sh
-1. ENTRADA: {"id" : "number"}
-1. SALIDA: {}
-```
-> Basura
+|1.|Obtener información del empleado|[/ms-inject/v1/get][PlDb]|GET|
+|1.|Obtener información del empleado|[/ms-inject/v1/get/dependency][PlDb]|GET|
 # DETALLE TECNICO
 
 Tecnologías usadas:
 
 * [Python3] - Python3
-* [MongoDB] - MongoDB
-* [https://dillinger.io/] - https://dillinger.io/
+* [Flask] - Flask
+* [FlaskInjector] - FlaskInjector
+* [Inject] - Inject
