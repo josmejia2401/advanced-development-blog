@@ -1,0 +1,6 @@
+
+my_venv_dir/
+.cache
+__cache__
+.DS_Store
+*.pyc
