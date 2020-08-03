@@ -1,13 +1,19 @@
-# go
+# MS-DEPENDENCY
+Creación de un proxy reverse/proxy inverso con GOlang. El proxy recibe una petición, obtiene el host y si este se encuentra definido dentro de los permitidos intenta redireccionar al backend.
 
-A simple CRUD  application using GO and mongodb.
+# Nuevas caracteristicas
+  - Ninguna
+# Construcción
+El servicio fue construido en go1.14.4
+# Dependencias
+# Ejecución
+```
+go run *go
+```
+# Métodos permitidos
+- ALL
+# DETALLE TECNICO
 
-# Run Docker
+Tecnologías usadas:
 
-- build image:
-sudo docker build -t go-reverse-proxy --tag go-reverse-proxy .
-
-- Run container in backgrond
-mkdir -p ~/logs/go-docker
-sudo docker run v ~/logs/go-docker:/app/logs --name go-reverse-proxy -d -p 443:443 -p 80:80 go-reverse-proxy
-sudo docker run v ./logs:/app/logs --name go-reverse-proxy -p 443:443 -p 80:80 go-reverse-proxy
+* [GOlang] - GOlang 1.14.4
