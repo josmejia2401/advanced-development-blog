@@ -1,0 +1,3 @@
+[submodule "python/proxy-server-python-3x"]
+	path = python/proxy-server-python-3x
+	url = ../proxy-server-python-3x.git

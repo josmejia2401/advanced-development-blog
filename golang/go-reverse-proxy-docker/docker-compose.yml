@@ -1,0 +1,19 @@
+version: '3.4'
+services:
+  proxy:
+    container_name: proxy
+    build:
+      context: proxy
+      dockerfile: Dockerfile
+    environment:
+      - ENVIRONMENT=dev
+    ports:
+      - "4443:4443"
+    networks:
+      - fullstack
+    volumes:
+      - ./logs/:/logs:rw
+    restart: always
+networks:
+  fullstack:
+    driver: bridge
