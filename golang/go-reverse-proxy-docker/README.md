@@ -1,6 +1,8 @@
 # PROXY REVERSE - PROXY REVERSO
 Creación de un proxy reverse/proxy inverso con GOlang. El proxy recibe una petición, obtiene el host y si este se encuentra definido dentro de los permitidos intenta redireccionar al backend.
 
+- Para este ejemplo se despliega una aplicación desarrollada con GOlang en Docker, Docker-compose.
+
 # Nuevas caracteristicas
   - Se agrega Docker y Docker-compose
 # Construcción
