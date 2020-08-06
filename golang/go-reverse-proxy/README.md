@@ -21,5 +21,4 @@ Tecnologías usadas:
 * [Docker-compose] - Docker-compose 1.25.0
 
 # PARA MÁS DETALLE
-Visitar: [a](https://soursop-dev.blogspot.com/2020/08/golang-con-dockergolang-with-docker.html)
-Visitar: [a](https://soursop-dev.blogspot.com/2020/08/proxy-inverso-con-golangproxy-reverse.html)
+- Visitar: [a DETALLE](https://soursop-dev.blogspot.com/2020/08/proxy-inverso-con-golangproxy-reverse.html)
