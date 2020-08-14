@@ -1,0 +1,10 @@
+2020-08-14T11:30:05.159-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - Starting StartApplication on jox-pc with PID 14686 (/home/jox/eclipse-workspace/example-log4j2-2/target/classes started by jox in /home/jox/eclipse-workspace/example-log4j2-2)
+2020-08-14T11:30:05.170-0500 [main] DEBUG com.advanced.development.log4j2.StartApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-14T11:30:05.170-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - The following profiles are active: dev
+2020-08-14T11:30:06.683-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - Started StartApplication in 2.572 seconds (JVM running for 3.385)
+2020-08-14T11:30:06.685-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - StartApplication...
+2020-08-14T12:23:21.929-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - Starting StartApplication on jox-pc with PID 16442 (/home/jox/eclipse-workspace/example-log4j2-2/target/classes started by jox in /home/jox/eclipse-workspace/example-log4j2-2)
+2020-08-14T12:23:21.931-0500 [main] DEBUG com.advanced.development.log4j2.StartApplication - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-08-14T12:23:21.931-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - The following profiles are active: dev
+2020-08-14T12:23:23.481-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - Started StartApplication in 2.489 seconds (JVM running for 3.332)
+2020-08-14T12:23:23.482-0500 [main] INFO  com.advanced.development.log4j2.StartApplication - StartApplication...

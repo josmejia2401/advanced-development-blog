@@ -1,0 +1,2 @@
+2020-08-14T11:30:05.170-0500 [main] DEBUG com.advanced.development.log4j2.StartApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-08-14T12:23:21.931-0500 [main] DEBUG com.advanced.development.log4j2.StartApplication - Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
