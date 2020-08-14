@@ -46,4 +46,4 @@ Tecnologías usadas:
 * [MAVEN] - Maven 
 
 # PARA MÁS DETALLE
-- Visitar: [a DETALLE](https://soursop-dev.blogspot.com/2020/08/golang-con-dockergolang-with-docker.html)
+- Visitar: [a DETALLE](https://advanced-development.blogspot.com/2020/08/ejemplo-log4j-2-en-java-log4j-2-en.html)
